@@ -1,0 +1,6 @@
+@Test_Popsy_HostAddress = http://localhost:5020
+
+GET {{Test_Popsy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
