@@ -15,7 +15,7 @@ namespace Test_Popsy.Repository.ImplementClass
             {
                 DateTime fechaActual = DateTime.Now;
 
-                if (task.FechaCreacion > fechaActual)
+                if (task.FechaCreacion < fechaActual)
                 {
                     return false;
                 }

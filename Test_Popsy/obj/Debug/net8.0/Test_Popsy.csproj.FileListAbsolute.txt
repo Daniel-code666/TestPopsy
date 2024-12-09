@@ -166,3 +166,4 @@ C:\Users\danie\source\repos\Test_Popsy\Test_Popsy\obj\Debug\net8.0\refint\Test_P
 C:\Users\danie\source\repos\Test_Popsy\Test_Popsy\obj\Debug\net8.0\Test_Popsy.pdb
 C:\Users\danie\source\repos\Test_Popsy\Test_Popsy\obj\Debug\net8.0\Test_Popsy.genruntimeconfig.cache
 C:\Users\danie\source\repos\Test_Popsy\Test_Popsy\obj\Debug\net8.0\ref\Test_Popsy.dll
+C:\Users\danie\source\repos\Test_Popsy\Test_Popsy\obj\Debug\net8.0\Test_Popsy.sourcelink.json

@@ -71,18 +71,18 @@ namespace Test_Popsy.Controllers
         }
 
         [HttpPatch("update_task")]
-        public async Task<IActionResult> UpdateTask([FromQuery] int id)
+        public async Task<IActionResult> UpdateTask([FromQuery] int id, TaskModel task)
         {
             try
             {
                 var foundTask = await _taskRepository.GetTaskById(id);
 
-                if (foundTask == null)
+                if (foundTask == null || task == null)
                 {
                     return StatusCode(404, new ApiResponse<string>("Task not found", ""));
                 }
 
-                if (!await _taskRepository.UpdateTask(foundTask))
+                if (!await _taskRepository.UpdateTask(task))
                 {
                     return StatusCode(500, new ApiResponse<string>("Error", ""));
                 }

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Test_Popsy.Data;
+using Test_Popsy.Repository.ImplementClass;
 using Test_Popsy.Repository.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ITaskRepository, ITaskRepository>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 
 var app = builder.Build();
 

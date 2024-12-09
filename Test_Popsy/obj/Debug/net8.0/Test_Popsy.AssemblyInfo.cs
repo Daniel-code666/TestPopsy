@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Test_Popsy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cb192fa90d0257410f1867c95df25e38c66537e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Test_Popsy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Test_Popsy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
